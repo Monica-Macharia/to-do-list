@@ -1,0 +1,24 @@
+body{
+    background-color: crimson;
+    
+}
+div.container{
+     background-color: white;
+     text-align:center;
+     width: 30%;
+     height: 370px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+    padding-top: 1%;
+    font-size: 17px;
+    }
+button.alert{
+    margin-top: 25%;
+    
+}
+button.display{
+    margin-top: 25%;
+    margin-left: 5%;
+    
+}
