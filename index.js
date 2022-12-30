@@ -22,6 +22,7 @@ function changeTitle(newTitle){
 }
 changeTitle("Todo List")
 
+//using style attribute on the DOM
 function changeButtonColor(){
   
     document.querySelector(".submit").style.color= "blue"
@@ -30,3 +31,9 @@ function changeButtonColor(){
 }
 changeButtonColor()
 
+//using innerHTML on the DOM
+// function changeHTML(){
+//     document.querySelector(".go").innerHTML = "<h1> I am changed </h1>"
+// }
+
+// changeHTML()
