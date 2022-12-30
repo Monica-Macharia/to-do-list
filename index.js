@@ -37,3 +37,9 @@ changeButtonColor()
 // }
 
 // changeHTML()
+
+//remove element
+// function removeElements(){
+//     document.querySelector(".go").remove()
+// }
+// removeElements()
