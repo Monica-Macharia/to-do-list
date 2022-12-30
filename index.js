@@ -24,7 +24,6 @@ changeTitle("Todo List")
 
 //using style attribute on the DOM
 function changeButtonColor(){
-  
     document.querySelector(".submit").style.color= "blue"
     document.querySelector(".alert").style.color="blue"
     document.querySelector(".display").style.color="blue"
@@ -46,9 +45,11 @@ changeButtonColor()
 
 //Creating elements
 
+
 // function createElements(){
 //    let newer=document.createElement("div")
 //    let content = "<h1>This is nice</h1>"
 //    newer.append(content)
 //     console.log(newer)
 // }
+//not working though
