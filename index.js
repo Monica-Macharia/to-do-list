@@ -16,8 +16,17 @@
  }
  currentDay()
 
-// function changeTitle(newTitle){
-//     let h2 =document.querySelector("h2")
-//     h2.textContent = newTitle
-// }
-// changeTitle("Todo List")
+function changeTitle(newTitle){
+    let h2 =document.querySelector("h2")
+    h2.textContent = newTitle
+}
+changeTitle("Todo List")
+
+function changeButtonColor(){
+  
+    document.querySelector(".submit").style.color= "blue"
+    document.querySelector(".alert").style.color="blue"
+    document.querySelector(".display").style.color="blue"
+}
+changeButtonColor()
+
