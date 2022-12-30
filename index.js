@@ -46,9 +46,9 @@ changeButtonColor()
 
 //Creating elements
 
-function createElements(){
-   let newer=document.createElement("div")
-   let content = "<h1>This is nice</h1>"
-   newer.append(content)
-    console.log(newer)
-}
+// function createElements(){
+//    let newer=document.createElement("div")
+//    let content = "<h1>This is nice</h1>"
+//    newer.append(content)
+//     console.log(newer)
+// }
