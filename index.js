@@ -113,6 +113,7 @@ document.querySelector(".display").addEventListener("click", function(e){
 
 document.addEventListener('DOMContentLoaded', ()=>{
     
+    
     //handles form default, reset and grabs incoming data
     let form = document.querySelector("form")
     form.addEventListener("submit", function(e){
