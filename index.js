@@ -113,6 +113,7 @@ document.querySelector(".display").addEventListener("click", function(e){
 
 document.addEventListener('DOMContentLoaded', ()=>{
     
+    //handles form default, reset and grabs incoming data
     let form = document.querySelector("form")
     form.addEventListener("submit", function(e){
         e.preventDefault()
@@ -120,9 +121,27 @@ document.addEventListener('DOMContentLoaded', ()=>{
         form.reset()
     })
 
-    function handleChange(){
-        
+    //create new elements on the DOM from incoming data
+    function handleChange(newToDo){
+       let container = document.querySelector(".incoming")
+       let content = document.createElement("h5")
+       let btn = document.createElement("button")
+        btn.textContent = "" + "x"
+        handleDelete(btn)
+        content.textContent = newToDo
+        container.appendChild(content)
+        content.appendChild( btn)
+       
     }
+
+    //deletes the incoming data
+    function handleDelete(btn){
+        btn.addEventListener("click", function(e){
+            console.log(e.target.parentNode.remove())
+        })
+     }  
+     
+    
 
 
 
