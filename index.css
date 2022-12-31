@@ -6,7 +6,7 @@ div.container{
      background-color: white;
      text-align:center;
      width: 30%;
-     height: 370px;
+     height: 80%;
      display: block;
      margin-left: auto;
      margin-right: auto;
@@ -15,12 +15,13 @@ div.container{
     }
 button.alert{
     margin-top: 25%;
+    margin-bottom: 10%;
     
 }
 button.display{
     margin-top: 25%;
     margin-left: 5%;
-    
+    margin-bottom: 10%;
 }
 div.incoming{
     text-align: left;
