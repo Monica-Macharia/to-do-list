@@ -95,15 +95,15 @@ document.querySelector(".display").addEventListener("click", function(e){
 //function1
  //grab the submit button
  //eventlistener "submit" on the submit button.
- //callback function that grabs the entered value e.target.value
+ //callback function that grabs the entered value e.target.inputclass.value
  //feed the value to function2
  //prevent the form from refreshing preventDefault
  //reset() the form
 
  //function2
  //grab a div
- //create a p tag as a child of the div
- //create a delete button as a child of p
+ //create a h5 tag as a child of the div
+ //create a delete button as a child of h5
  //and an eventlistener to the button
  //p.innertext = "incoming value from form"
 
@@ -111,3 +111,19 @@ document.querySelector(".display").addEventListener("click", function(e){
 //deletes the button and the parent contents upon clicking 
 //feed to fucntion2 as a callback for the eventlistener
 
+document.addEventListener('DOMContentLoaded', ()=>{
+    
+    let form = document.querySelector("form")
+    form.addEventListener("submit", function(e){
+        e.preventDefault()
+        handleChange(e.target.newDo.value)
+        form.reset()
+    })
+
+    function handleChange(){
+        
+    }
+
+
+
+})
