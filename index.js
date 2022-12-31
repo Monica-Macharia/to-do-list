@@ -84,9 +84,30 @@ document.querySelector(".display").addEventListener("click", function(e){
 //call an event listener to it "click"
 //upon clicking it should delete the parent node, with it included.
 
-document.querySelector(".btn").addEventListener("click", function(e){
-    console.log(e.target.parentNode.remove())
-})
+// document.querySelector(".btn").addEventListener("click", function(e){
+//     console.log(e.target.parentNode.remove())
+// })
 
+//DISPLAY ON THE DOM THE VALUE SUBMITTED THROUGH FORM
 
+//Pseudocode
+
+//function1
+ //grab the submit button
+ //eventlistener "submit" on the submit button.
+ //callback function that grabs the entered value e.target.value
+ //feed the value to function2
+ //prevent the form from refreshing preventDefault
+ //reset() the form
+
+ //function2
+ //grab a div
+ //create a p tag as a child of the div
+ //create a delete button as a child of p
+ //and an eventlistener to the button
+ //p.innertext = "incoming value from form"
+
+//funtion3
+//deletes the button and the parent contents upon clicking 
+//feed to fucntion2 as a callback for the eventlistener
 
