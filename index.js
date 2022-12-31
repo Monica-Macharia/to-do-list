@@ -65,4 +65,15 @@ changeButtonColor()
 
 document.querySelector(".alert").addEventListener("click", () => alert("I have been clicked!"))
 
-//
+//Adding a click event to the DISPLAY button.
+
+//pseudocode
+//grab the button 
+//call an event listener on it
+//console.log something
+
+document.querySelector(".display").addEventListener("click", function(){
+    document.querySelector(".display").style.backgroundColor = "green"
+      
+}) 
+
