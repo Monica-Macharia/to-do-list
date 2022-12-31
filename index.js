@@ -53,3 +53,16 @@ changeButtonColor()
 //     console.log(newer)
 // }
 //not working though
+
+
+
+//Adding functionality -ALERT BUTTON
+
+//pseudocode
+//Grab the button - document.query method
+//call addEventListener on the button
+//create an alert
+
+document.querySelector(".alert").addEventListener("click", () => alert("I have been clicked!"))
+
+//
