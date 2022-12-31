@@ -5,16 +5,16 @@
 // changeDay("Sunday")
 
 //get the current day
- function currentDay(){
-     const weekday= ["Sunday", "Monday", "Teusday", "Wednesday", "Thursday", "Friday", "Saturday"]
-     let day = new Date()
-     let word = day.getDay()
-     let newDay = (weekday[word])
-     document.querySelector(".day").style.color = "red"
-     document.querySelector(".day").innerText = newDay
+//  function currentDay(){
+//      const weekday= ["Sunday", "Monday", "Teusday", "Wednesday", "Thursday", "Friday", "Saturday"]
+//      let day = new Date()
+//      let word = day.getDay()
+//      let newDay = (weekday[word])
+//      document.querySelector(".day").style.color = "red"
+//      document.querySelector(".day").innerText = newDay
    
- }
- currentDay()
+//  }
+//  currentDay()
 
 function changeTitle(newTitle){
     let h2 =document.querySelector("h2")
@@ -72,8 +72,21 @@ document.querySelector(".alert").addEventListener("click", () => alert("I have b
 //call an event listener on it
 //console.log something
 
-document.querySelector(".display").addEventListener("click", function(){
-    document.querySelector(".display").style.backgroundColor = "green"
+document.querySelector(".display").addEventListener("click", function(e){
+    e.target.style.backgroundColor = "green"
       
 }) 
+
+//DELETE a parentNode through Click event
+
+//pseudocode
+//grab the button
+//call an event listener to it "click"
+//upon clicking it should delete the parent node, with it included.
+
+document.querySelector(".btn").addEventListener("click", function(e){
+    console.log(e.target.parentNode.remove())
+})
+
+
 
