@@ -5,16 +5,16 @@
 // changeDay("Sunday")
 
 //get the current day
-//  function currentDay(){
-//      const weekday= ["Sunday", "Monday", "Teusday", "Wednesday", "Thursday", "Friday", "Saturday"]
-//      let day = new Date()
-//      let word = day.getDay()
-//      let newDay = (weekday[word])
-//      document.querySelector(".day").style.color = "red"
-//      document.querySelector(".day").innerText = newDay
+ function currentDay(){
+     const weekday= ["Sunday", "Monday", "Teusday", "Wednesday", "Thursday", "Friday", "Saturday"]
+     let day = new Date()
+     let word = day.getDay()
+     let newDay = (weekday[word])
+     document.querySelector(".day").style.color = "red"
+     document.querySelector(".day").innerText = newDay
    
-//  }
-//  currentDay()
+ }
+ currentDay()
 
 function changeTitle(newTitle){
     let h2 =document.querySelector("h2")
