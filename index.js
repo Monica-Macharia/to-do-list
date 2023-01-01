@@ -31,9 +31,9 @@ function changeButtonColor(){
 changeButtonColor()
 
 //using innerHTML on the DOM
-// function changeHTML(){
-//     document.querySelector(".go").innerHTML = "<h1> I am changed </h1>"
-// }
+function changeHTML(){
+    document.querySelector(".go").innerHTML = "<h1> I am changed </h1>"
+}
 
 // changeHTML()
 
