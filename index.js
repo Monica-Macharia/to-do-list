@@ -37,11 +37,11 @@ changeButtonColor()
 
 // changeHTML()
 
-//remove element
-// function removeElements(){
-//     document.querySelector(".go").remove()
-// }
-// removeElements()
+// remove element
+function removeElements(){
+    document.querySelector(".go").remove()
+}
+removeElements()
 
 //Creating elements
 
