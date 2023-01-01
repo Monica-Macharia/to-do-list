@@ -1,8 +1,8 @@
 // function changeDay(newDay){
-//     let day = document.querySelector(".day")
-//     day.innerText = newDay
-// }
-// changeDay("Sunday")
+    let day = document.querySelector(".day")
+    day.innerText = newDay
+}
+changeDay("Sunday")
 
 //get the current day
  function currentDay(){
