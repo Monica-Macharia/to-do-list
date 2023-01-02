@@ -38,10 +38,10 @@ function changeHTML(){
 // changeHTML()
 
 // remove element
-function removeElements(){
-    document.querySelector(".go").remove()
-}
-removeElements()
+// function removeElements(){
+//     document.querySelector(".go").remove()
+// }
+// removeElements()
 
 //Creating elements
 
