@@ -143,7 +143,13 @@ document.addEventListener('DOMContentLoaded', ()=>{
      }  
      
     
-
+    
 
 
 })
+ //inserts a timer
+     
+ let day = new Date()
+ let inter = setInterval(function(){
+    document.querySelector("#timer").innerHTML = day.toLocaleTimeString()
+ }, 1000)
